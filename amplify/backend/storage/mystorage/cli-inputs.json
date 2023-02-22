@@ -1,0 +1,10 @@
+{
+  "resourceName": "mystorage",
+  "tableName": "mybucket",
+  "partitionKey": {
+    "fieldName": "a-z",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
