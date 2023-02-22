@@ -1,14 +1,10 @@
 {
   "resourceName": "mystorage",
-  "policyUUID": "aa354404",
-  "bucketName": "mybucket",
-  "storageAccess": "auth",
-  "guestAccess": [],
-  "authAccess": [
-    "CREATE_AND_UPDATE",
-    "READ",
-    "DELETE"
-  ],
-  "triggerFunction": "NONE",
-  "groupAccess": {}
+  "tableName": "mybucket",
+  "partitionKey": {
+    "fieldName": "a-z",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
 }
