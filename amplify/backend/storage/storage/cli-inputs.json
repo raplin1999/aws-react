@@ -1,7 +1,7 @@
 {
-  "resourceName": "mystorage",
-  "policyUUID": "aa354404",
-  "bucketName": "mybucket",
+  "resourceName": "storage",
+  "policyUUID": "73dfed57",
+  "bucketName": "bucket",
   "storageAccess": "auth",
   "guestAccess": [],
   "authAccess": [

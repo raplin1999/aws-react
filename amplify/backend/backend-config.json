@@ -47,6 +47,11 @@
     "mystorage": {
       "providerPlugin": "awscloudformation",
       "service": "DynamoDB"
+    },
+    "storage": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
     }
   }
 }
